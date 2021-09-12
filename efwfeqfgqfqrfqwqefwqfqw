@@ -1,0 +1,242 @@
+local NotSupportedGUI = Instance.new("ScreenGui")
+local NotSupported = Instance.new("Frame")
+local BackColor999 = Instance.new("TextLabel")
+local Titile = Instance.new("TextLabel")
+local Click2See = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local Exit2 = Instance.new("TextButton")
+local XELTAB2 = Instance.new("Frame")
+local Exit = Instance.new("TextButton")
+local BackColor2 = Instance.new("ScrollingFrame")
+local SupportedTitle = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local BizzareAdventures = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local MythPiece = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local GetGameLink2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local GetGameLink1 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local XelHubTitle2 = Instance.new("TextLabel")
+
+--Properties:
+
+NotSupportedGUI.Name = "NotSupportedGUI"
+NotSupportedGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+NotSupportedGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+NotSupported.Name = "NotSupported"
+NotSupported.Parent = NotSupportedGUI
+NotSupported.BackgroundColor3 = Color3.fromRGB(30, 29, 36)
+NotSupported.BorderColor3 = Color3.fromRGB(30, 29, 36)
+NotSupported.Position = UDim2.new(0.346610367, 0, 0.373417735, 0)
+NotSupported.Size = UDim2.new(0, 415, 0, 159)
+
+BackColor999.Name = "BackColor999"
+BackColor999.Parent = NotSupported
+BackColor999.BackgroundColor3 = Color3.fromRGB(34, 38, 43)
+BackColor999.BorderColor3 = Color3.fromRGB(34, 38, 43)
+BackColor999.Position = UDim2.new(0, 0, 0.267327636, 0)
+BackColor999.Size = UDim2.new(0, 415, 0, 116)
+BackColor999.Font = Enum.Font.SourceSans
+BackColor999.Text = ""
+BackColor999.TextColor3 = Color3.fromRGB(0, 0, 0)
+BackColor999.TextSize = 14.000
+
+Titile.Name = "Titile"
+Titile.Parent = NotSupported
+Titile.BackgroundColor3 = Color3.fromRGB(29, 31, 32)
+Titile.BackgroundTransparency = 1.000
+Titile.BorderColor3 = Color3.fromRGB(29, 31, 32)
+Titile.Position = UDim2.new(0.303867459, 0, 0.0386938713, 0)
+Titile.Size = UDim2.new(0, 102, 0, 25)
+Titile.Font = Enum.Font.Jura
+Titile.Text = "Game Not Supported"
+Titile.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titile.TextSize = 40.000
+
+Click2See.Name = "Click2See"
+Click2See.Parent = NotSupported
+Click2See.BackgroundColor3 = Color3.fromRGB(50, 205, 50)
+Click2See.BorderColor3 = Color3.fromRGB(50, 205, 50)
+Click2See.Position = UDim2.new(0.0175903328, 0, 0.327710599, 0)
+Click2See.Size = UDim2.new(0, 400, 0, 96)
+Click2See.Font = Enum.Font.SourceSans
+Click2See.Text = "Click Here To See The Supported Games"
+Click2See.TextColor3 = Color3.fromRGB(255, 255, 255)
+Click2See.TextSize = 27.000
+Click2See.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Click2See
+
+Exit2.Name = "Exit2"
+Exit2.Parent = NotSupported
+Exit2.BackgroundColor3 = Color3.fromRGB(29, 31, 32)
+Exit2.BackgroundTransparency = 1.000
+Exit2.BorderColor3 = Color3.fromRGB(29, 31, 32)
+Exit2.Position = UDim2.new(0.929956794, 0, 0.0701614618, 0)
+Exit2.Size = UDim2.new(0, 21, 0, 14)
+Exit2.ZIndex = 2
+Exit2.AutoButtonColor = false
+Exit2.Font = Enum.Font.Jura
+Exit2.Text = "X"
+Exit2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit2.TextSize = 41.000
+Exit2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+XELTAB2.Name = "XELTAB2"
+XELTAB2.Parent = NotSupportedGUI
+XELTAB2.BackgroundColor3 = Color3.fromRGB(30, 29, 36)
+XELTAB2.BorderColor3 = Color3.fromRGB(30, 29, 36)
+XELTAB2.Position = UDim2.new(0.3955957, 0, 0.175139248, 0)
+XELTAB2.Size = UDim2.new(0, 281, 0, 410)
+
+Exit.Name = "Exit"
+Exit.Parent = XELTAB2
+Exit.BackgroundColor3 = Color3.fromRGB(29, 31, 32)
+Exit.BackgroundTransparency = 1.000
+Exit.BorderColor3 = Color3.fromRGB(29, 31, 32)
+Exit.Position = UDim2.new(0.860077262, 0, 0.038714923, 0)
+Exit.Size = UDim2.new(0, 21, 0, 14)
+Exit.ZIndex = 2
+Exit.AutoButtonColor = false
+Exit.Font = Enum.Font.Jura
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextSize = 41.000
+Exit.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+BackColor2.Name = "BackColor2"
+BackColor2.Parent = XELTAB2
+BackColor2.Active = true
+BackColor2.BackgroundColor3 = Color3.fromRGB(34, 38, 43)
+BackColor2.BorderColor3 = Color3.fromRGB(30, 29, 36)
+BackColor2.Position = UDim2.new(0, 0, 0.121556215, 0)
+BackColor2.Size = UDim2.new(0, 281, 0, 360)
+BackColor2.ZIndex = 0
+BackColor2.CanvasSize = UDim2.new(0, 0, 2, 100)
+BackColor2.ScrollBarThickness = 9
+
+SupportedTitle.Name = "SupportedTitle"
+SupportedTitle.Parent = BackColor2
+SupportedTitle.BackgroundColor3 = Color3.fromRGB(50, 205, 50)
+SupportedTitle.BorderColor3 = Color3.fromRGB(50, 205, 50)
+SupportedTitle.Position = UDim2.new(0.0369631946, 0, 0.0109314602, 0)
+SupportedTitle.Size = UDim2.new(0, 251, 0, 32)
+SupportedTitle.ZIndex = 4
+SupportedTitle.AutoButtonColor = false
+SupportedTitle.Font = Enum.Font.SourceSans
+SupportedTitle.Text = "ㅤGames | Info"
+SupportedTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+SupportedTitle.TextSize = 14.000
+SupportedTitle.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+SupportedTitle.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = SupportedTitle
+
+BizzareAdventures.Name = "Bizzare Adventures"
+BizzareAdventures.Parent = BackColor2
+BizzareAdventures.BackgroundColor3 = Color3.fromRGB(30, 29, 36)
+BizzareAdventures.BorderColor3 = Color3.fromRGB(37, 36, 43)
+BizzareAdventures.Position = UDim2.new(0.0405219123, 0, 0.0577420257, 0)
+BizzareAdventures.Size = UDim2.new(0, 119, 0, 32)
+BizzareAdventures.AutoButtonColor = false
+BizzareAdventures.Font = Enum.Font.SourceSans
+BizzareAdventures.Text = "Bizzare Adventures"
+BizzareAdventures.TextColor3 = Color3.fromRGB(255, 255, 255)
+BizzareAdventures.TextSize = 14.000
+BizzareAdventures.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = BizzareAdventures
+
+MythPiece.Name = "MythPiece"
+MythPiece.Parent = BackColor2
+MythPiece.BackgroundColor3 = Color3.fromRGB(30, 29, 36)
+MythPiece.BorderColor3 = Color3.fromRGB(37, 36, 43)
+MythPiece.Position = UDim2.new(0.0369631946, 0, 0.106356472, 0)
+MythPiece.Size = UDim2.new(0, 119, 0, 32)
+MythPiece.AutoButtonColor = false
+MythPiece.Font = Enum.Font.SourceSans
+MythPiece.Text = "Myth Piece"
+MythPiece.TextColor3 = Color3.fromRGB(255, 255, 255)
+MythPiece.TextSize = 14.000
+MythPiece.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = MythPiece
+
+GetGameLink2.Name = "GetGameLink2"
+GetGameLink2.Parent = BackColor2
+GetGameLink2.BackgroundColor3 = Color3.fromRGB(50, 205, 50)
+GetGameLink2.BorderColor3 = Color3.fromRGB(50, 205, 50)
+GetGameLink2.Position = UDim2.new(0.499816716, 0, 0.104107104, 0)
+GetGameLink2.Size = UDim2.new(0, 119, 0, 32)
+GetGameLink2.ZIndex = 4
+GetGameLink2.Font = Enum.Font.SourceSans
+GetGameLink2.Text = "(Coming Soon)"
+GetGameLink2.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetGameLink2.TextSize = 14.000
+GetGameLink2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = GetGameLink2
+
+GetGameLink1.Name = "GetGameLink1"
+GetGameLink1.Parent = BackColor2
+GetGameLink1.BackgroundColor3 = Color3.fromRGB(50, 205, 50)
+GetGameLink1.BorderColor3 = Color3.fromRGB(50, 205, 50)
+GetGameLink1.Position = UDim2.new(0.500157952, 0, 0.0586893298, 0)
+GetGameLink1.Size = UDim2.new(0, 119, 0, 32)
+GetGameLink1.ZIndex = 4
+GetGameLink1.Font = Enum.Font.SourceSans
+GetGameLink1.Text = "Get Game Link"
+GetGameLink1.TextColor3 = Color3.fromRGB(255, 255, 255)
+GetGameLink1.TextSize = 14.000
+GetGameLink1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = GetGameLink1
+
+XelHubTitle2.Name = "XelHubTitle2"
+XelHubTitle2.Parent = XELTAB2
+XelHubTitle2.BackgroundColor3 = Color3.fromRGB(29, 31, 32)
+XelHubTitle2.BackgroundTransparency = 1.000
+XelHubTitle2.BorderColor3 = Color3.fromRGB(29, 31, 32)
+XelHubTitle2.Position = UDim2.new(0.233323857, 0, 0.0246502124, 0)
+XelHubTitle2.Size = UDim2.new(0, 102, 0, 25)
+XelHubTitle2.Font = Enum.Font.Jura
+XelHubTitle2.Text = "Supported Games"
+XelHubTitle2.TextColor3 = Color3.fromRGB(255, 255, 255)
+XelHubTitle2.TextSize = 29.000
+
+Exit.MouseButton1Down:connect(function()
+	XELTAB2.Visible = false
+	NotSupported.Visible = true
+end)
+
+Exit2.MouseButton1Down:connect(function()
+	NotSupported.Visible = false
+end)
+
+Click2See.MouseButton1Down:connect(function()
+	NotSupported.Visible = false
+	XELTAB2.Visible = true
+end)
+
+GetGameLink1.MouseButton1Down:connect(function()
+	setclipboard("https://www.roblox.com/games/4023445890/Update-1-5-3-Bizarre-Adventures#")
+end)	
+
+XELTAB2.Active = true
+XELTAB2.Draggable = true
+XELTAB2.Visible = false
+XELTAB2.ResetOnSpawn = false
+XELTAB2.Visible = false
+
+NotSupported.Active = true
+NotSupported.Draggable = true
+NotSupported.ResetOnSpawn = false
